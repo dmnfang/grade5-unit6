@@ -238,7 +238,7 @@
           ${line("waiter", a, "What would you like?")}
           ${line("customer", b, `I’d like ${listPicked(r.items)}.`)}
           ${line("customer", b, "How much is it?")}
-          ${line("waiter", a, `It’s ${revealButton(ta.shown, r.total)} yen.`)}
+          ${line("waiter", a, `It’s <span class="picked">${num(r.total)}</span> yen.`)}
         </section>
         <section class="item-grid" style="--cols:${cols}">${r.items.map(it => `
           <div class="menu-card">${pic(it)}
@@ -344,8 +344,8 @@
     else if (t.id === "back") { state.screen = "sp1"; render(); }
     else if (t.id === "again") newMenu();
     else if (t.id === "reveal") {
-      if (s === "sp2") { state.shown = !state.shown; sfx(state.shown ? "correct" : "close"); }
-      else { ta.shown = !ta.shown; sfx(ta.shown ? "correct" : "close"); }
+      state.shown = !state.shown;
+      sfx(state.shown ? "correct" : "close");
       render();
     }
 
