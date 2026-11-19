@@ -8,15 +8,9 @@ Two modes, chosen on the home screen:
 
 Files
 - `css/clr.css`: CLR design system (shared)
-<<<<<<< HEAD
-- `css/restaurant.css`: layout for this app only (accent: orange)
-- `js/menu.js`: food names, prices and image file   names
-- `js/app.js`: game logic
-=======
 - `css/restaurant.css`: layout for this app (orange = speaking practice, grape = time attack)
 - `js/menu.js`: food names, prices and image file names
 - `js/app.js`: screens and game logic
 - `js/icons.js`: inlined Phosphor icons
 - `js/sound.js` + `sfx/`: sound effects (Cardbox v3 SFX pack)
->>>>>>> 921c4a6 (new)
 - `images/`: food images (see `images/README.md`)
