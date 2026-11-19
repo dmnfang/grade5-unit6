@@ -25,8 +25,13 @@ window.MENU = {
   desserts: [
     {name: "ice cream",      say: "ice cream",      price: 220,  img: "ice-cream",      emoji: "🍨"},
     {name: "cake",           say: "cake",           price: 250,  img: "cake",           emoji: "🍰"},
+<<<<<<< HEAD
     {name: "parfait",        say: "a parfait",      price: 320,  img: "pancakes",       emoji: "🥞"},
     {name: "pudding",        say: "pudding",        price: 210,  img: "parfait",        emoji: "🍮"},
+=======
+    {name: "parfait",        say: "a parfait",      price: 320,  img: "parfait",       emoji: "🥞"},
+    {name: "pudding",        say: "pudding",        price: 210,  img: "pudding",        emoji: "🍮"},
+>>>>>>> 921c4a6 (new)
     {name: "shaved ice",     say: "shaved ice",     price: 170,  img: "shaved-ice",     emoji: "🍧"},
     {name: "donut",          say: "a donut",        price: 100,  img: "donut",          emoji: "🍩"}
   ],
